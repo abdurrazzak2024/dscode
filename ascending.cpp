@@ -16,16 +16,16 @@ void ascending(int arr[],int size){
 }
 int main(){
   int n;
-  cout<<"enter the element of  array:";
+  cout<<"Enter the size of  array and element:";
   cin>>n;
   int arr[n];
-  cout<<"enter  "<<n<<" element"<<endl;
+
 
   for(int i=0;i<n;i++){
     cin>>arr[i];
   }
   ascending(arr,n);
-  cout<<"ascending of array element:";
+  cout<<"Descending of array element:";
   for(int i=0;i<n;i++){
     cout<<arr[i]<<" ";
   }
